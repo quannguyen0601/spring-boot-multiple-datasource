@@ -1,0 +1,25 @@
+POST http://localhost:8080/api/product HTTP/1.2
+content-type: application/json
+Accept: application/json
+
+{   
+    "productName": "IphoneXS",
+    "quantity": 10,
+    "unitPrice": 20000000.00
+}
+
+####
+GET http://localhost:8080/api/product/2 HTTP/1.2
+content-type: application/json
+Accept: application/json
+
+{
+}
+
+####
+GET http://localhost:8080/api/products HTTP/1.2
+content-type: application/json
+Accept: application/json
+
+{
+}
